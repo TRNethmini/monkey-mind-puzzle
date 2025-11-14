@@ -16,15 +16,19 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
         </DialogHeader>
 
         <div className="space-y-4 mt-4 text-center">
-          <div className="text-6xl mb-4 animate-float">🐵</div>
+          <div className="text-6xl mb-4 animate-float">🎯
+</div>
           
           <p className="text-muted-foreground leading-relaxed">
-            <strong className="text-foreground">Monkey Mind</strong> is a fast-paced multiplayer
-            puzzle game where quick thinking and sharp reflexes lead to victory.
+            <strong className="text-foreground">Monkey Mind is a fast-paced multiplayer puzzle game where quick thinking and sharp reflexes lead to victory.</strong> 
           </p>
 
           <p className="text-sm text-muted-foreground">
-            Built with React, TypeScript, Tailwind CSS, and Socket.IO
+            This project was developed by K.A.T.Ridmi Nethmini as a Final Year Project for the University of Bedfordshire.
+          </p>
+
+          <p className="text-sm text-muted-foreground">
+            🛠 Tech Stack: React, TypeScript, Tailwind CSS, and Socket.IO
           </p>
 
           <div className="pt-4 border-t border-border">

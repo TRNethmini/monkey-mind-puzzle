@@ -11,7 +11,7 @@ export function HowToPlayModal({ open, onClose }: HowToPlayModalProps) {
     <Dialog open={open} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-2xl game-card border-2 border-primary/30 max-h-[80vh] overflow-y-auto">
         <DialogHeader>
-          <DialogTitle className="text-2xl font-bold">How To Play</DialogTitle>
+          <DialogTitle className="text-2xl font-bold">🍌How to Become the Banana King👑</DialogTitle>
         </DialogHeader>
 
         <div className="space-y-6 mt-4">

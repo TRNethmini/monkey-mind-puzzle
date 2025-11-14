@@ -49,10 +49,10 @@ export function HomeHub({ onPlay, onSettings, onHowToPlay, onAbout, onLogout, us
         <div className="text-center space-y-12 animate-fade-in">
           <div className="space-y-4">
             <h1 className="text-7xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent animate-float">
-              MONKEY MIND
+              MONKEY MIND PUZZLE
             </h1>
             <p className="text-xl text-muted-foreground">
-              Test your wit in real-time multiplayer puzzles
+              Go Bananas! 🍌 Swing into a fast-paced puzzle race where only the sharpest minds survive the jungle.
             </p>
           </div>
 

@@ -29,7 +29,7 @@ export function EndGameModal({ open, scores, onPlayAgain, onReturnHome }: EndGam
               <h2 className="text-4xl font-bold mb-2">Game Over!</h2>
               {winner && (
                 <p className="text-xl text-muted-foreground">
-                  <span className="text-secondary font-bold">{winner.name}</span> wins!
+                  <span className="text-secondary font-bold">{winner.name}</span> Wins! All hail the new Banana King! 
                 </p>
               )}
             </div>
@@ -85,8 +85,8 @@ export function EndGameModal({ open, scores, onPlayAgain, onReturnHome }: EndGam
 
           {loser && loser.name && sortedScores.length > 1 && (
             <div className="game-card bg-destructive/10 border-destructive/30">
-              <p className="text-center text-sm">
-                <span className="font-bold">{loser.name}</span> gets the dare challenge! 🙈
+              <p className="text-xl font-bold text-center">
+                <span className="font-bold text-lg">{loser.name}</span> gets the dare challenge!
               </p>
             </div>
           )}

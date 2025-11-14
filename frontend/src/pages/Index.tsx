@@ -205,13 +205,13 @@ const Index = () => {
           loop
           muted
           playsInline
-          className="fixed inset-0 w-full h-full object-cover opacity-30"
+          className="fixed inset-0 w-full h-full object-cover opacity-70"
           style={{ 
             zIndex: -20,
             filter: 'blur(3px) brightness(0.7)'
           }}
         >
-          <source src="/videos/Loop.mp4" type="video/mp4" />
+          <source src="/videos/LoginReg.mp4" type="video/mp4" />
         </video>
       )}
 
