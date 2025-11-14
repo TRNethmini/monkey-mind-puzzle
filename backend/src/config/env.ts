@@ -1,3 +1,4 @@
+//read all important settings (like ports, passwords, and API keys)
 import dotenv from 'dotenv';
 
 dotenv.config();

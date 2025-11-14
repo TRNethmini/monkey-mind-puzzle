@@ -60,7 +60,7 @@ export const register = async (req: Request, res: Response): Promise<void> => {
     await user.save();
 
     // Hand back a fresh token
-    const token = generateToken(user._id.toString(), user.name, user.avatarUrl);
+    const token = generateToken((user._id as any).toString(), user.name, user.avatarUrl);
 
     logger.info(`New user registered: ${user.name}`);
 
@@ -137,7 +137,7 @@ export const login = async (req: Request, res: Response): Promise<void> => {
     }
 
     // Send back a token for the session
-    const token = generateToken(user._id.toString(), user.name, user.avatarUrl);
+    const token = generateToken((user._id as any).toString(), user.name, user.avatarUrl);
 
     logger.info(`User logged in: ${user.name}`);
 

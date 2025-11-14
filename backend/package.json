@@ -13,7 +13,13 @@
     "lint:fix": "eslint src --ext .ts --fix",
     "seed": "ts-node src/utils/seed.ts"
   },
-  "keywords": ["game", "trivia", "realtime", "socket.io", "express"],
+  "keywords": [
+    "game",
+    "trivia",
+    "realtime",
+    "socket.io",
+    "express"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
@@ -50,4 +56,3 @@
     "typescript": "^5.3.3"
   }
 }
-

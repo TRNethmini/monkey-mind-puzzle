@@ -1615,3 +1615,51 @@
 {"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-14 20:17:40"}
 {"level":"info","message":"New socket connection: fhQb1fdiOd0Mo6HXAAAB","service":"monkey-mind-backend","timestamp":"2025-11-14 20:17:41"}
 {"level":"info","message":"Socket authenticated: Anya (fhQb1fdiOd0Mo6HXAAAB)","service":"monkey-mind-backend","timestamp":"2025-11-14 20:17:41"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-14 23:08:05"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-14 23:08:05"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-14 23:08:05"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-14 23:08:05"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-14 23:08:05"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-14 23:08:05"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-14 23:08:05"}
+{"level":"info","message":"New socket connection: cz7UyVRvUQmFWI8dAAAB","service":"monkey-mind-backend","timestamp":"2025-11-14 23:09:43"}
+{"level":"info","message":"Socket authenticated: Anya (cz7UyVRvUQmFWI8dAAAB)","service":"monkey-mind-backend","timestamp":"2025-11-14 23:09:43"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:00"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:00"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:00"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:00"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:00"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:00"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:00"}
+{"level":"info","message":"New socket connection: GZakD4lfEF0fTVF9AAAB","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:01"}
+{"level":"info","message":"Socket authenticated: Anya (GZakD4lfEF0fTVF9AAAB)","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:01"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
+{"level":"info","message":"New socket connection: ccJvJIpdBE-A1hn8AAAB","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
+{"level":"info","message":"Socket authenticated: Anya (ccJvJIpdBE-A1hn8AAAB)","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
+{"level":"info","message":"Socket disconnected: ccJvJIpdBE-A1hn8AAAB","service":"monkey-mind-backend","timestamp":"2025-11-14 23:54:40"}
+{"level":"debug","message":"POST /api/auth/login","service":"monkey-mind-backend","timestamp":"2025-11-14 23:54:58"}
+{"level":"debug","message":"POST /api/auth/register","service":"monkey-mind-backend","timestamp":"2025-11-14 23:55:03"}
+{"level":"info","message":"New user registered: Sienna","service":"monkey-mind-backend","timestamp":"2025-11-14 23:55:03"}
+{"level":"info","message":"New socket connection: mjFXzRHI-P-b92KzAAAD","service":"monkey-mind-backend","timestamp":"2025-11-14 23:55:03"}
+{"level":"info","message":"Socket authenticated: Sienna (mjFXzRHI-P-b92KzAAAD)","service":"monkey-mind-backend","timestamp":"2025-11-14 23:55:03"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:23"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:23"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:23"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:23"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:23"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:23"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:23"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:57"}
