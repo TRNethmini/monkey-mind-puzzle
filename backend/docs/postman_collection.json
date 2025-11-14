@@ -1,0 +1,318 @@
+{
+  "info": {
+    "name": "Monkey Mind Backend API",
+    "description": "Complete API collection for Monkey Mind multiplayer trivia game",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{authToken}}",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3001",
+      "type": "string"
+    },
+    {
+      "key": "authToken",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "lobbyCode",
+      "value": "",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Authentication",
+      "item": [
+        {
+          "name": "Register New User",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 201) {",
+                  "    const jsonData = pm.response.json();",
+                  "    pm.collectionVariables.set('authToken', jsonData.data.token);",
+                  "    console.log('Token saved:', jsonData.data.token);",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"TestPlayer\",\n  \"pin\": \"1234\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/register",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "register"]
+            },
+            "description": "Register a new user with name and 4-digit PIN"
+          },
+          "response": []
+        },
+        {
+          "name": "Login",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "    const jsonData = pm.response.json();",
+                  "    pm.collectionVariables.set('authToken', jsonData.data.token);",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"TestPlayer\",\n  \"pin\": \"1234\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/login",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "login"]
+            },
+            "description": "Login with existing credentials"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Profile",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{authToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/me",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "me"]
+            },
+            "description": "Get current user profile (requires authentication)"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Lobbies",
+      "item": [
+        {
+          "name": "Get Public Lobbies",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/lobbies/public",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "lobbies", "public"]
+            },
+            "description": "List all public lobbies waiting for players"
+          },
+          "response": []
+        },
+        {
+          "name": "Create Lobby",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 201) {",
+                  "    const jsonData = pm.response.json();",
+                  "    pm.collectionVariables.set('lobbyCode', jsonData.data.lobby.code);",
+                  "    console.log('Lobby created:', jsonData.data.lobby.code);",
+                  "}"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{authToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"My Game Lobby\",\n  \"isPublic\": true,\n  \"maxPlayers\": 8,\n  \"settings\": {\n    \"questionCount\": 10,\n    \"questionTimeLimit\": 30,\n    \"difficulty\": \"medium\"\n  }\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/lobbies",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "lobbies"]
+            },
+            "description": "Create a new game lobby (requires authentication)"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Lobby Details",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{authToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/lobbies/{{lobbyCode}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "lobbies", "{{lobbyCode}}"]
+            },
+            "description": "Get details of a specific lobby"
+          },
+          "response": []
+        },
+        {
+          "name": "Join Lobby",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{authToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/lobbies/{{lobbyCode}}/join",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "lobbies", "{{lobbyCode}}", "join"]
+            },
+            "description": "Join an existing lobby"
+          },
+          "response": []
+        },
+        {
+          "name": "Leave Lobby",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{authToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/lobbies/{{lobbyCode}}/leave",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "lobbies", "{{lobbyCode}}", "leave"]
+            },
+            "description": "Leave a lobby"
+          },
+          "response": []
+        },
+        {
+          "name": "Start Game",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{authToken}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/lobbies/{{lobbyCode}}/start",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "lobbies", "{{lobbyCode}}", "start"]
+            },
+            "description": "Start the game (owner only, requires at least 2 players)"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/health",
+          "host": ["{{baseUrl}}"],
+          "path": ["health"]
+        },
+        "description": "Check server health status"
+      },
+      "response": []
+    }
+  ]
+}
+
