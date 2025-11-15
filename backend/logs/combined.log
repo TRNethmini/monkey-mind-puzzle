@@ -1663,3 +1663,38 @@
 {"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
 {"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
 {"level":"info","message":"SIGINT signal received: closing HTTP server","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:57"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:01"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:01"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:01"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:01"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:01"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:01"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:01"}
+{"level":"info","message":"New socket connection: 7_rNv-SNkO5jazQBAAAB","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:02"}
+{"level":"info","message":"Socket authenticated: Sienna (7_rNv-SNkO5jazQBAAAB)","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:02"}
+{"level":"info","message":"Socket disconnected: 7_rNv-SNkO5jazQBAAAB","service":"monkey-mind-backend","timestamp":"2025-11-15 07:24:29"}
+{"level":"debug","message":"POST /api/auth/register","service":"monkey-mind-backend","timestamp":"2025-11-15 07:24:42"}
+{"level":"info","message":"New user registered: Liyena","service":"monkey-mind-backend","timestamp":"2025-11-15 07:24:43"}
+{"level":"info","message":"New socket connection: zIgsQww3IeCfDjKsAAAD","service":"monkey-mind-backend","timestamp":"2025-11-15 07:24:43"}
+{"level":"info","message":"Socket authenticated: Liyena (zIgsQww3IeCfDjKsAAAD)","service":"monkey-mind-backend","timestamp":"2025-11-15 07:24:43"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:44"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:44"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:44"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:44"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:44"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:44"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:44"}
+{"level":"info","message":"New socket connection: gfF1Y-yJFcioH7FXAAAB","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:46"}
+{"level":"info","message":"Socket authenticated: Liyena (gfF1Y-yJFcioH7FXAAAB)","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:46"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:28"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:28"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:28"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:28"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:28"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:28"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:28"}
+{"level":"info","message":"New socket connection: 5FzSSDT_x8ZZ621WAAAB","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:30"}
+{"level":"info","message":"Socket authenticated: Liyena (5FzSSDT_x8ZZ621WAAAB)","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:30"}
+{"level":"info","message":"Socket disconnected: 5FzSSDT_x8ZZ621WAAAB","service":"monkey-mind-backend","timestamp":"2025-11-15 09:26:50"}
+{"level":"info","message":"New socket connection: AtWq_x4NqT6OL0oxAAAD","service":"monkey-mind-backend","timestamp":"2025-11-15 09:34:21"}
+{"level":"info","message":"Socket authenticated: Liyena (AtWq_x4NqT6OL0oxAAAD)","service":"monkey-mind-backend","timestamp":"2025-11-15 09:34:21"}

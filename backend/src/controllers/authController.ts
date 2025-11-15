@@ -5,7 +5,7 @@ import { isValidPin, isValidName, sanitizeString } from '../utils/validators';
 import logger from '../config/logger';
 import { generateAvatarUrl, ensureAvatar } from '../utils/avatar';
 
-// Handles login and registration with a name and simple PIN
+// Handles registering new players, logging in existing players, and fetching a player's profile.
 
 // Register a new player
 export const register = async (req: Request, res: Response): Promise<void> => {

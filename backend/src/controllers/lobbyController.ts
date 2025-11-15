@@ -187,7 +187,7 @@ export const createLobby = async (req: AuthRequest, res: Response): Promise<void
   }
 };
 
-// Add the player to a lobby
+// Add the player to a existing lobby
 export const joinLobby = async (req: AuthRequest, res: Response): Promise<void> => {
   try {
     const { code } = req.params;

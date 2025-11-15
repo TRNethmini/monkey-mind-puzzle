@@ -64,7 +64,8 @@ export function setupSocketHandlers(io: Server): void {
           return;
         }
 
-        // Remember the latest socket info
+        //Explains the code that saves the player's unique socket.id
+        // to the lobby, so the server knows who to send messages to.
         const player = lobby.players.find((p) => p.userId === socket.userId);
         if (player) {
           player.socketId = socket.id;
@@ -74,15 +75,16 @@ export function setupSocketHandlers(io: Server): void {
           await lobby.save();
         }
 
-        // Subscribe to lobby updates
+        // This tells Socket.IO to put this player in a "chat room" just for this lobby.
         socket.join(code.toUpperCase());
 
         logger.info(`${socket.userName} joined lobby ${code}`);
 
-        // Share the current lobby data
+        // This sends the lobby info only to the player who just joined.
         socket.emit('joinedLobby', { lobby });
 
-        // Tell everyone else about the change
+        // This sends the updated lobby info
+        // to everyone else in the room so they can see the new player.
         io.to(code.toUpperCase()).emit('lobbyUpdate', { lobby });
       } catch (error) {
         logger.error('Join lobby error:', error);
@@ -90,7 +92,7 @@ export function setupSocketHandlers(io: Server): void {
       }
     });
 
-    // Handle a player backing out of a lobby
+    // A title for the leaveLobby event.
     socket.on('leaveLobby', async (data: { code: string }) => {
       try {
         if (!socket.userId) {
@@ -107,7 +109,7 @@ export function setupSocketHandlers(io: Server): void {
         // Take the player out of the list
         lobby.players = lobby.players.filter((p) => p.userId !== socket.userId);
 
-        // Stop sending lobby messages to that socket
+        // The player is no longer in the "chat room" for this lobby.
         socket.leave(code.toUpperCase());
 
         // Promote someone else if the owner leaves
@@ -115,7 +117,8 @@ export function setupSocketHandlers(io: Server): void {
           lobby.ownerId = lobby.players[0].userId as any;
         }
 
-        // Drop the lobby if it is empty
+        // Drop the lobby if it is empty.A rule to clean up the database.
+        //  If the last player leaves, the lobby is deleted.
         if (lobby.players.length === 0) {
           await Lobby.deleteOne({ _id: lobby._id });
           logger.info(`Lobby ${code} deleted (empty)`);
@@ -126,7 +129,7 @@ export function setupSocketHandlers(io: Server): void {
 
         logger.info(`${socket.userName} left lobby ${code}`);
 
-        // Let everyone else know
+        // This tells all remaining players that someone has left.
         io.to(code.toUpperCase()).emit('lobbyUpdate', { lobby });
       } catch (error) {
         logger.error('Leave lobby error:', error);
