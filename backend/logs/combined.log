@@ -1153,548 +1153,199 @@
 {"level":"info","message":"Sent question 5/10 (q_1762532397656_wp213ss8d) to lobby 0QVXW2","service":"monkey-mind-backend","timestamp":"2025-11-07 21:51:42"}
 {"level":"info","message":"Sent question 6/10 (q_1762532398205_qad7pyjso) to lobby 0QVXW2","service":"monkey-mind-backend","timestamp":"2025-11-07 21:52:17"}
 {"level":"info","message":"SIGINT signal received: closing HTTP server","service":"monkey-mind-backend","timestamp":"2025-11-07 21:52:23"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-07 22:45:38"}
-{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-07 22:45:38"}
-{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-07 22:45:38"}
-{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-07 22:45:38"}
-{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-07 22:45:38"}
-{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-07 22:45:38"}
-{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-07 22:45:38"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-07 22:58:42"}
-{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-07 22:58:42"}
-{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-07 22:58:42"}
-{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-07 22:58:42"}
-{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-07 22:58:42"}
-{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-07 22:58:42"}
-{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-07 22:58:42"}
-{"level":"debug","message":"POST /api/auth/register","service":"monkey-mind-backend","timestamp":"2025-11-07 22:59:43"}
-{"level":"info","message":"New user registered: Tharu","service":"monkey-mind-backend","timestamp":"2025-11-07 22:59:44"}
-{"level":"info","message":"New socket connection: HG8asv1SNfBspyhFAAAB","service":"monkey-mind-backend","timestamp":"2025-11-07 22:59:45"}
-{"level":"info","message":"Socket authenticated: Tharu (HG8asv1SNfBspyhFAAAB)","service":"monkey-mind-backend","timestamp":"2025-11-07 22:59:45"}
-{"level":"debug","message":"POST /api/auth/register","service":"monkey-mind-backend","timestamp":"2025-11-07 23:01:27"}
-{"level":"info","message":"New user registered: trui","service":"monkey-mind-backend","timestamp":"2025-11-07 23:01:28"}
-{"level":"info","message":"New socket connection: 81twDasdJFoZAz6fAAAD","service":"monkey-mind-backend","timestamp":"2025-11-07 23:01:28"}
-{"level":"info","message":"Socket authenticated: trui (81twDasdJFoZAz6fAAAD)","service":"monkey-mind-backend","timestamp":"2025-11-07 23:01:28"}
-{"level":"debug","message":"POST /api/lobbies","service":"monkey-mind-backend","timestamp":"2025-11-07 23:03:38"}
-{"level":"info","message":"Lobby created: 3OQTM4 by trui","service":"monkey-mind-backend","timestamp":"2025-11-07 23:03:38"}
-{"level":"info","message":"trui joined lobby 3OQTM4","service":"monkey-mind-backend","timestamp":"2025-11-07 23:03:39"}
-{"level":"debug","message":"GET /api/lobbies/public","service":"monkey-mind-backend","timestamp":"2025-11-07 23:04:25"}
-{"level":"debug","message":"POST /api/lobbies/3OQTM4/join","service":"monkey-mind-backend","timestamp":"2025-11-07 23:04:42"}
-{"level":"info","message":"Tharu joined lobby 3OQTM4","service":"monkey-mind-backend","timestamp":"2025-11-07 23:04:43"}
-{"level":"info","message":"Tharu joined lobby 3OQTM4","service":"monkey-mind-backend","timestamp":"2025-11-07 23:04:43"}
-{"level":"debug","message":"POST /api/lobbies/3OQTM4/start","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:26"}
-{"level":"info","message":"Game start requested for lobby 3OQTM4","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:26"}
-{"level":"info","message":"Initializing game for lobby 3OQTM4...","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:27"}
-{"level":"debug","message":"Fetching 5 questions (difficulty: medium)","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:27"}
-{"level":"info","message":"Fetching 5 puzzles from Banana API...","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:27"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:27"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t58beac222e7adb19012264c235n78.png, answer: 8","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:28"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:29"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t5eaf3b3fe25f6082c904c22d9cn83.png, answer: 3","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:29"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:29"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t62f974a0b9a0cc353c8bf489aan28.png, answer: 8","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:29"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:30"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t64d1fda6c163888c5759dc3b79n99.png, answer: 9","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:30"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:30"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t69901eca4a6a2ecec71a7b4f02n24.png, answer: 4","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:31"}
-{"level":"info","message":"Game initialized in lobby 3OQTM4 with 5 questions","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:31"}
-{"level":"info","message":"Game successfully started in lobby 3OQTM4 by trui","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:31"}
-{"level":"info","message":"Sending first question after 3 second delay...","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:31"}
-{"level":"info","message":"trui joined lobby 3OQTM4","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:31"}
-{"level":"info","message":"Tharu joined lobby 3OQTM4","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:31"}
-{"level":"info","message":"Sent question 1/5 (q_1762536928712_xh15o9uu1) to lobby 3OQTM4","service":"monkey-mind-backend","timestamp":"2025-11-07 23:05:34"}
-{"level":"info","message":"Sent question 2/5 (q_1762536929266_gtq6iilol) to lobby 3OQTM4","service":"monkey-mind-backend","timestamp":"2025-11-07 23:06:09"}
-{"level":"debug","message":"690e2c8776c8e02b14dcc0b5 answered question q_1762536929266_gtq6iilol in lobby 3OQTM4: incorrect (+0 points)","service":"monkey-mind-backend","timestamp":"2025-11-07 23:06:29"}
-{"level":"info","message":"Question q_1762536929266_gtq6iilol: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-07 23:06:30"}
-{"level":"debug","message":"Tharu submitted answer for q_1762536929266_gtq6iilol: incorrect","service":"monkey-mind-backend","timestamp":"2025-11-07 23:06:30"}
-{"level":"info","message":"Sent question 3/5 (q_1762536929809_4943ilqvv) to lobby 3OQTM4","service":"monkey-mind-backend","timestamp":"2025-11-07 23:06:44"}
-{"level":"info","message":"Sent question 4/5 (q_1762536930496_v3hsxrv6c) to lobby 3OQTM4","service":"monkey-mind-backend","timestamp":"2025-11-07 23:07:22"}
-{"level":"info","message":"Sent question 5/5 (q_1762536931137_mdblu1kms) to lobby 3OQTM4","service":"monkey-mind-backend","timestamp":"2025-11-07 23:07:58"}
-{"level":"debug","message":"690e2c8776c8e02b14dcc0b5 answered question q_1762536931137_mdblu1kms in lobby 3OQTM4: incorrect (+0 points)","service":"monkey-mind-backend","timestamp":"2025-11-07 23:08:29"}
-{"level":"info","message":"Question q_1762536931137_mdblu1kms: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-07 23:08:29"}
-{"level":"debug","message":"Tharu submitted answer for q_1762536931137_mdblu1kms: incorrect","service":"monkey-mind-backend","timestamp":"2025-11-07 23:08:29"}
-{"level":"info","message":"Game ended in lobby 3OQTM4. Winner: trui with 0 points","service":"monkey-mind-backend","timestamp":"2025-11-07 23:08:33"}
-{"level":"info","message":"Game ended in lobby 3OQTM4","service":"monkey-mind-backend","timestamp":"2025-11-07 23:08:33"}
-{"level":"warn","message":"MongoDB disconnected","service":"monkey-mind-backend","timestamp":"2025-11-08 11:16:37"}
-{"level":"warn","message":"MongoDB disconnected","service":"monkey-mind-backend","timestamp":"2025-11-12 22:45:00"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-12 22:55:14"}
-{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-12 22:55:14"}
-{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-12 22:55:14"}
-{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-12 22:55:14"}
-{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-12 22:55:14"}
-{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-12 22:55:14"}
-{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-12 22:55:15"}
-{"level":"debug","message":"POST /api/auth/register","service":"monkey-mind-backend","timestamp":"2025-11-12 22:56:29"}
-{"level":"info","message":"New user registered: test","service":"monkey-mind-backend","timestamp":"2025-11-12 22:56:30"}
-{"level":"info","message":"New socket connection: JmE5Gwc3aEhn6ZNcAAAB","service":"monkey-mind-backend","timestamp":"2025-11-12 22:56:30"}
-{"level":"info","message":"Socket authenticated: test (JmE5Gwc3aEhn6ZNcAAAB)","service":"monkey-mind-backend","timestamp":"2025-11-12 22:56:30"}
-{"level":"debug","message":"POST /api/auth/login","service":"monkey-mind-backend","timestamp":"2025-11-12 22:57:15"}
-{"level":"debug","message":"POST /api/auth/login","service":"monkey-mind-backend","timestamp":"2025-11-12 22:57:47"}
-{"level":"debug","message":"POST /api/auth/register","service":"monkey-mind-backend","timestamp":"2025-11-12 22:58:02"}
-{"level":"debug","message":"POST /api/auth/register","service":"monkey-mind-backend","timestamp":"2025-11-12 22:58:37"}
-{"level":"info","message":"New user registered: bunny","service":"monkey-mind-backend","timestamp":"2025-11-12 22:58:38"}
-{"level":"info","message":"New socket connection: 4epPoNrKQG0Y9wAsAAAD","service":"monkey-mind-backend","timestamp":"2025-11-12 22:58:38"}
-{"level":"info","message":"Socket authenticated: bunny (4epPoNrKQG0Y9wAsAAAD)","service":"monkey-mind-backend","timestamp":"2025-11-12 22:58:38"}
-{"level":"debug","message":"POST /api/lobbies","service":"monkey-mind-backend","timestamp":"2025-11-12 22:59:38"}
-{"level":"info","message":"Lobby created: NETGTB by test","service":"monkey-mind-backend","timestamp":"2025-11-12 22:59:38"}
-{"level":"info","message":"test joined lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 22:59:38"}
-{"level":"debug","message":"GET /api/lobbies/public","service":"monkey-mind-backend","timestamp":"2025-11-12 22:59:54"}
-{"level":"debug","message":"POST /api/lobbies/NETGTB/join","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:03"}
-{"level":"info","message":"bunny joined lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:03"}
-{"level":"info","message":"bunny joined lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:03"}
-{"level":"debug","message":"POST /api/lobbies/NETGTB/start","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:24"}
-{"level":"info","message":"Game start requested for lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:24"}
-{"level":"info","message":"Initializing game for lobby NETGTB...","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:24"}
-{"level":"debug","message":"Fetching 10 questions (difficulty: medium)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:24"}
-{"level":"info","message":"Fetching 10 puzzles from Banana API...","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:24"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:24"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/tf0891d7e3b4ee609aaaf34c092n6.png, answer: 6","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:25"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:25"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/tf0dde8be1ceceb4ec9f9753bb2n69.png, answer: 9","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:26"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:26"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/tf1842953cb8d7d209a354252afn56.png, answer: 6","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:26"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:27"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/tf1fe43b43a10381cd5a55877d5n44.png, answer: 4","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:27"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:27"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/tf30437c602f833b676c95503e6n122.png, answer: 2","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:27"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:28"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/tf36cb86426148cc2878f667a6dn101.png, answer: 1","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:28"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:28"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/tf5c13878711c15b4bc23295442n35.png, answer: 5","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:29"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:29"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/tf5ee98cd2d0f07cf40ebb965d2n103.png, answer: 3","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:29"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:30"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/tf6d1b06e6bf0979eef07b010f6n25.png, answer: 5","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:30"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:30"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/tfc821334376989b3b70653bdd3n34.png, answer: 4","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:31"}
-{"level":"info","message":"Game initialized in lobby NETGTB with 10 questions","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:31"}
-{"level":"info","message":"Game successfully started in lobby NETGTB by test","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:31"}
-{"level":"info","message":"Sending first question after 3 second delay...","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:31"}
-{"level":"info","message":"test joined lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:31"}
-{"level":"info","message":"bunny joined lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:31"}
-{"level":"info","message":"Sent question 1/10 (q_1762968685685_i5csrumr4) to lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:01:34"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1762968685685_i5csrumr4 in lobby NETGTB: correct (+103 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:03"}
-{"level":"info","message":"Question q_1762968685685_i5csrumr4: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:03"}
-{"level":"debug","message":"test submitted answer for q_1762968685685_i5csrumr4: correct","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:03"}
-{"level":"debug","message":"6914c3c6d1f91d6a2ca24bb4 answered question q_1762968685685_i5csrumr4 in lobby NETGTB: correct (+100 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:06"}
-{"level":"info","message":"Question q_1762968685685_i5csrumr4: 2/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:07"}
-{"level":"info","message":"All players answered! Advancing to next question in 3 seconds...","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:07"}
-{"level":"debug","message":"bunny submitted answer for q_1762968685685_i5csrumr4: correct","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:07"}
-{"level":"info","message":"Sent question 2/10 (q_1762968686172_6ueiwxqa5) to lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:10"}
-{"level":"debug","message":"6914c3c6d1f91d6a2ca24bb4 answered question q_1762968686172_6ueiwxqa5 in lobby NETGTB: correct (+101 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:39"}
-{"level":"info","message":"Question q_1762968686172_6ueiwxqa5: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:39"}
-{"level":"debug","message":"bunny submitted answer for q_1762968686172_6ueiwxqa5: correct","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:39"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1762968686172_6ueiwxqa5 in lobby NETGTB: incorrect (+0 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:44"}
-{"level":"info","message":"Question q_1762968686172_6ueiwxqa5: 2/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:45"}
-{"level":"info","message":"All players answered! Advancing to next question in 3 seconds...","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:45"}
-{"level":"debug","message":"test submitted answer for q_1762968686172_6ueiwxqa5: incorrect","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:45"}
-{"level":"info","message":"Sent question 3/10 (q_1762968686735_m725fy7l8) to lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:02:48"}
-{"level":"debug","message":"6914c3c6d1f91d6a2ca24bb4 answered question q_1762968686735_m725fy7l8 in lobby NETGTB: incorrect (+0 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:03:20"}
-{"level":"info","message":"Question q_1762968686735_m725fy7l8: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:03:21"}
-{"level":"debug","message":"bunny submitted answer for q_1762968686735_m725fy7l8: incorrect","service":"monkey-mind-backend","timestamp":"2025-11-12 23:03:21"}
-{"level":"info","message":"Sent question 4/10 (q_1762968687369_n8c1p7xwx) to lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:03:23"}
-{"level":"debug","message":"6914c3c6d1f91d6a2ca24bb4 answered question q_1762968687369_n8c1p7xwx in lobby NETGTB: correct (+110 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:03:47"}
-{"level":"info","message":"Question q_1762968687369_n8c1p7xwx: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:03:47"}
-{"level":"debug","message":"bunny submitted answer for q_1762968687369_n8c1p7xwx: correct","service":"monkey-mind-backend","timestamp":"2025-11-12 23:03:47"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1762968687369_n8c1p7xwx in lobby NETGTB: incorrect (+0 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:03:50"}
-{"level":"info","message":"Question q_1762968687369_n8c1p7xwx: 2/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:03:50"}
-{"level":"info","message":"All players answered! Advancing to next question in 3 seconds...","service":"monkey-mind-backend","timestamp":"2025-11-12 23:03:50"}
-{"level":"debug","message":"test submitted answer for q_1762968687369_n8c1p7xwx: incorrect","service":"monkey-mind-backend","timestamp":"2025-11-12 23:03:50"}
-{"level":"info","message":"Sent question 5/10 (q_1762968687972_tkqocfsyu) to lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:03:54"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1762968687972_tkqocfsyu in lobby NETGTB: correct (+133 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:04"}
-{"level":"info","message":"Question q_1762968687972_tkqocfsyu: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:04"}
-{"level":"debug","message":"test submitted answer for q_1762968687972_tkqocfsyu: correct","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:04"}
-{"level":"debug","message":"6914c3c6d1f91d6a2ca24bb4 answered question q_1762968687972_tkqocfsyu in lobby NETGTB: correct (+125 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:09"}
-{"level":"info","message":"Question q_1762968687972_tkqocfsyu: 2/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:09"}
-{"level":"info","message":"All players answered! Advancing to next question in 3 seconds...","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:09"}
-{"level":"debug","message":"bunny submitted answer for q_1762968687972_tkqocfsyu: correct","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:09"}
-{"level":"info","message":"Sent question 6/10 (q_1762968688543_44crqjiwa) to lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:12"}
-{"level":"debug","message":"6914c3c6d1f91d6a2ca24bb4 answered question q_1762968688543_44crqjiwa in lobby NETGTB: correct (+101 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:42"}
-{"level":"info","message":"Question q_1762968688543_44crqjiwa: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:42"}
-{"level":"debug","message":"bunny submitted answer for q_1762968688543_44crqjiwa: correct","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:42"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1762968688543_44crqjiwa in lobby NETGTB: correct (+100 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:47"}
-{"level":"info","message":"Question q_1762968688543_44crqjiwa: 2/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:47"}
-{"level":"info","message":"All players answered! Advancing to next question in 3 seconds...","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:47"}
-{"level":"debug","message":"test submitted answer for q_1762968688543_44crqjiwa: correct","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:47"}
-{"level":"info","message":"Sent question 7/10 (q_1762968689254_vp052o394) to lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:04:50"}
-{"level":"debug","message":"6914c3c6d1f91d6a2ca24bb4 answered question q_1762968689254_vp052o394 in lobby NETGTB: correct (+128 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:03"}
-{"level":"info","message":"Question q_1762968689254_vp052o394: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:03"}
-{"level":"debug","message":"bunny submitted answer for q_1762968689254_vp052o394: correct","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:03"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1762968689254_vp052o394 in lobby NETGTB: incorrect (+0 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:07"}
-{"level":"info","message":"Question q_1762968689254_vp052o394: 2/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:07"}
-{"level":"info","message":"All players answered! Advancing to next question in 3 seconds...","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:07"}
-{"level":"debug","message":"test submitted answer for q_1762968689254_vp052o394: incorrect","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:07"}
-{"level":"info","message":"Sent question 8/10 (q_1762968689912_opdgad913) to lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:10"}
-{"level":"debug","message":"6914c3c6d1f91d6a2ca24bb4 answered question q_1762968689912_opdgad913 in lobby NETGTB: correct (+136 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:18"}
-{"level":"info","message":"Question q_1762968689912_opdgad913: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:19"}
-{"level":"debug","message":"bunny submitted answer for q_1762968689912_opdgad913: correct","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:19"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1762968689912_opdgad913 in lobby NETGTB: correct (+130 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:22"}
-{"level":"info","message":"Question q_1762968689912_opdgad913: 2/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:22"}
-{"level":"info","message":"All players answered! Advancing to next question in 3 seconds...","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:22"}
-{"level":"debug","message":"test submitted answer for q_1762968689912_opdgad913: correct","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:22"}
-{"level":"info","message":"Sent question 9/10 (q_1762968690687_66miaoif2) to lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:25"}
-{"level":"debug","message":"6914c3c6d1f91d6a2ca24bb4 answered question q_1762968690687_66miaoif2 in lobby NETGTB: correct (+117 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:46"}
-{"level":"info","message":"Question q_1762968690687_66miaoif2: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:46"}
-{"level":"debug","message":"bunny submitted answer for q_1762968690687_66miaoif2: correct","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:46"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1762968690687_66miaoif2 in lobby NETGTB: correct (+108 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:51"}
-{"level":"info","message":"Question q_1762968690687_66miaoif2: 2/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:51"}
-{"level":"info","message":"All players answered! Advancing to next question in 3 seconds...","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:51"}
-{"level":"debug","message":"test submitted answer for q_1762968690687_66miaoif2: correct","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:51"}
-{"level":"info","message":"Sent question 10/10 (q_1762968691273_mnp7k7qbz) to lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:05:54"}
-{"level":"debug","message":"6914c3c6d1f91d6a2ca24bb4 answered question q_1762968691273_mnp7k7qbz in lobby NETGTB: correct (+139 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:06:01"}
-{"level":"info","message":"Question q_1762968691273_mnp7k7qbz: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:06:01"}
-{"level":"debug","message":"bunny submitted answer for q_1762968691273_mnp7k7qbz: correct","service":"monkey-mind-backend","timestamp":"2025-11-12 23:06:01"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1762968691273_mnp7k7qbz in lobby NETGTB: incorrect (+0 points)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:06:06"}
-{"level":"info","message":"Question q_1762968691273_mnp7k7qbz: 2/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-12 23:06:06"}
-{"level":"info","message":"All players answered! Advancing to next question in 3 seconds...","service":"monkey-mind-backend","timestamp":"2025-11-12 23:06:06"}
-{"level":"debug","message":"test submitted answer for q_1762968691273_mnp7k7qbz: incorrect","service":"monkey-mind-backend","timestamp":"2025-11-12 23:06:06"}
-{"level":"info","message":"Game ended in lobby NETGTB. Winner: bunny with 1057 points","service":"monkey-mind-backend","timestamp":"2025-11-12 23:06:10"}
-{"level":"info","message":"Game ended in lobby NETGTB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:06:10"}
-{"level":"info","message":"Socket disconnected: 4epPoNrKQG0Y9wAsAAAD","service":"monkey-mind-backend","timestamp":"2025-11-12 23:10:36"}
-{"level":"info","message":"New socket connection: WfvcGogaYFHmJWf5AAAF","service":"monkey-mind-backend","timestamp":"2025-11-12 23:10:37"}
-{"level":"info","message":"Socket authenticated: bunny (WfvcGogaYFHmJWf5AAAF)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:10:37"}
-{"level":"debug","message":"Rate limiter cleanup: removed 2 expired entries","service":"monkey-mind-backend","timestamp":"2025-11-12 23:15:13"}
-{"level":"info","message":"Socket disconnected: WfvcGogaYFHmJWf5AAAF","service":"monkey-mind-backend","timestamp":"2025-11-12 23:29:11"}
-{"level":"info","message":"Socket disconnected: JmE5Gwc3aEhn6ZNcAAAB","service":"monkey-mind-backend","timestamp":"2025-11-12 23:29:11"}
-{"level":"info","message":"New socket connection: Pax-ojWzfVmc8tQfAAAH","service":"monkey-mind-backend","timestamp":"2025-11-12 23:47:55"}
-{"level":"info","message":"Socket authenticated: test (Pax-ojWzfVmc8tQfAAAH)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:47:55"}
-{"level":"info","message":"New socket connection: Iei2yKYgQQBwgvPmAAAJ","service":"monkey-mind-backend","timestamp":"2025-11-12 23:47:55"}
-{"level":"info","message":"Socket authenticated: bunny (Iei2yKYgQQBwgvPmAAAJ)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:47:56"}
-{"level":"warn","message":"MongoDB disconnected","service":"monkey-mind-backend","timestamp":"2025-11-12 23:48:04"}
-{"level":"info","message":"Socket disconnected: Iei2yKYgQQBwgvPmAAAJ","service":"monkey-mind-backend","timestamp":"2025-11-12 23:52:12"}
-{"level":"info","message":"New socket connection: 2PCk53PTTRBAH4T3AAAL","service":"monkey-mind-backend","timestamp":"2025-11-12 23:52:13"}
-{"level":"info","message":"Socket authenticated: bunny (2PCk53PTTRBAH4T3AAAL)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:52:13"}
-{"level":"info","message":"Socket disconnected: Pax-ojWzfVmc8tQfAAAH","service":"monkey-mind-backend","timestamp":"2025-11-12 23:52:16"}
-{"level":"info","message":"New socket connection: cqrkXlqp-Twa8ybzAAAN","service":"monkey-mind-backend","timestamp":"2025-11-12 23:52:17"}
-{"level":"info","message":"Socket authenticated: test (cqrkXlqp-Twa8ybzAAAN)","service":"monkey-mind-backend","timestamp":"2025-11-12 23:52:17"}
-{"level":"info","message":"Socket disconnected: 2PCk53PTTRBAH4T3AAAL","service":"monkey-mind-backend","timestamp":"2025-11-13 00:46:21"}
-{"level":"info","message":"Socket disconnected: cqrkXlqp-Twa8ybzAAAN","service":"monkey-mind-backend","timestamp":"2025-11-13 00:46:21"}
-{"address":"ac-nsapvb6-shard-00-01.0bphmir.mongodb.net:27017","beforeHandshake":false,"cause":{"beforeHandshake":false,"errorLabelSet":{}},"errorLabelSet":{},"level":"error","message":"Disconnect cleanup error: Connection to ac-nsapvb6-shard-00-01.0bphmir.mongodb.net:27017 interrupted due to server monitor timeout","service":"monkey-mind-backend","stack":"PoolClearedOnNetworkError: Connection to ac-nsapvb6-shard-00-01.0bphmir.mongodb.net:27017 interrupted due to server monitor timeout\n    at ConnectionPool.interruptInUseConnections (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\mongodb\\src\\cmap\\connection_pool.ts:487:28)\n    at C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\mongodb\\src\\cmap\\connection_pool.ts:473:35\n    at processTicksAndRejections (node:internal/process/task_queues:85:11)\n    at runNextTicks (node:internal/process/task_queues:69:3)\n    at listOnTimeout (node:internal/timers:575:9)\n    at processTimers (node:internal/timers:549:7)","timestamp":"2025-11-13 01:02:15"}
-{"level":"info","message":"New socket connection: DXZfM93jwEpOaVaoAAAQ","service":"monkey-mind-backend","timestamp":"2025-11-13 01:02:17"}
-{"level":"info","message":"Socket authenticated: test (DXZfM93jwEpOaVaoAAAQ)","service":"monkey-mind-backend","timestamp":"2025-11-13 01:02:17"}
-{"level":"info","message":"New socket connection: YMeLHZrkpqNO00BoAAAR","service":"monkey-mind-backend","timestamp":"2025-11-13 01:02:17"}
-{"level":"info","message":"Socket authenticated: bunny (YMeLHZrkpqNO00BoAAAR)","service":"monkey-mind-backend","timestamp":"2025-11-13 01:02:17"}
-{"level":"info","message":"Socket disconnected: DXZfM93jwEpOaVaoAAAQ","service":"monkey-mind-backend","timestamp":"2025-11-13 01:24:00"}
-{"level":"info","message":"New socket connection: 9piUrXmbj73GjquYAAAT","service":"monkey-mind-backend","timestamp":"2025-11-13 01:24:01"}
-{"level":"info","message":"Socket authenticated: test (9piUrXmbj73GjquYAAAT)","service":"monkey-mind-backend","timestamp":"2025-11-13 01:24:01"}
-{"level":"info","message":"Socket disconnected: 9piUrXmbj73GjquYAAAT","service":"monkey-mind-backend","timestamp":"2025-11-13 01:49:39"}
-{"level":"warn","message":"MongoDB disconnected","service":"monkey-mind-backend","timestamp":"2025-11-13 21:47:51"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-13 21:49:28"}
-{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-13 21:49:28"}
-{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-13 21:49:28"}
-{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-13 21:49:28"}
-{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-13 21:49:28"}
-{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-13 21:49:28"}
-{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-13 21:49:28"}
-{"level":"debug","message":"POST /api/auth/login","service":"monkey-mind-backend","timestamp":"2025-11-13 21:50:55"}
-{"level":"debug","message":"POST /api/auth/register","service":"monkey-mind-backend","timestamp":"2025-11-13 21:51:20"}
-{"level":"info","message":"New user registered: Rihana","service":"monkey-mind-backend","timestamp":"2025-11-13 21:51:20"}
-{"level":"info","message":"New socket connection: C4pWkw5Mx27phzi4AAAB","service":"monkey-mind-backend","timestamp":"2025-11-13 21:51:20"}
-{"level":"info","message":"Socket authenticated: Rihana (C4pWkw5Mx27phzi4AAAB)","service":"monkey-mind-backend","timestamp":"2025-11-13 21:51:20"}
-{"level":"info","message":"New socket connection: _z5OL66f_3qMpBt_AAAD","service":"monkey-mind-backend","timestamp":"2025-11-13 21:51:47"}
-{"level":"info","message":"Socket authenticated: test (_z5OL66f_3qMpBt_AAAD)","service":"monkey-mind-backend","timestamp":"2025-11-13 21:51:47"}
-{"level":"debug","message":"POST /api/lobbies","service":"monkey-mind-backend","timestamp":"2025-11-13 21:53:08"}
-{"level":"info","message":"Lobby created: 0E3CQL by test","service":"monkey-mind-backend","timestamp":"2025-11-13 21:53:11"}
-{"level":"info","message":"test joined lobby 0E3CQL","service":"monkey-mind-backend","timestamp":"2025-11-13 21:53:14"}
-{"level":"debug","message":"POST /api/lobbies/0E3CQL/leave","service":"monkey-mind-backend","timestamp":"2025-11-13 21:53:21"}
-{"level":"info","message":"Lobby 0E3CQL deleted (no players left)","service":"monkey-mind-backend","timestamp":"2025-11-13 21:53:22"}
-{"level":"debug","message":"POST /api/lobbies","service":"monkey-mind-backend","timestamp":"2025-11-13 21:53:44"}
-{"level":"info","message":"Lobby created: Y3VPU2 by test","service":"monkey-mind-backend","timestamp":"2025-11-13 21:53:44"}
-{"level":"info","message":"test joined lobby Y3VPU2","service":"monkey-mind-backend","timestamp":"2025-11-13 21:53:45"}
-{"level":"debug","message":"GET /api/lobbies/public","service":"monkey-mind-backend","timestamp":"2025-11-13 21:53:54"}
-{"level":"debug","message":"POST /api/lobbies/Y3VPU2/join","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:19"}
-{"level":"info","message":"Rihana joined lobby Y3VPU2","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:20"}
-{"level":"info","message":"Rihana joined lobby Y3VPU2","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:20"}
-{"level":"warn","message":"MongoDB disconnected","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:25"}
-{"level":"debug","message":"POST /api/lobbies/Y3VPU2/start","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:26"}
-{"level":"debug","message":"POST /api/lobbies/Y3VPU2/start","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:29"}
-{"level":"info","message":"Game start requested for lobby Y3VPU2","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:30"}
-{"level":"info","message":"Initializing game for lobby Y3VPU2...","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:30"}
-{"level":"debug","message":"Fetching 5 questions (difficulty: medium)","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:30"}
-{"level":"info","message":"Fetching 5 puzzles from Banana API...","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:30"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:30"}
-{"level":"info","message":"Game start requested for lobby Y3VPU2","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:31"}
-{"level":"info","message":"Initializing game for lobby Y3VPU2...","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:31"}
-{"level":"debug","message":"Fetching 5 questions (difficulty: medium)","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:31"}
-{"level":"info","message":"Fetching 5 puzzles from Banana API...","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:31"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:31"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t43a6729c7d61d6ef306b655a64n37.png, answer: 7","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:31"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:31"}
-{"level":"warn","message":"⚠️  Banana API request failed: No answer in response","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:32"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:32"}
-{"level":"warn","message":"⚠️  Banana API request failed: No answer in response","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:32"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:32"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t441d7c40caebab95af0dfd8b97n94.png, answer: 4","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:32"}
-{"level":"warn","message":"⚠️  Banana API request failed: No answer in response","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:32"}
-{"level":"warn","message":"Failed to fetch puzzle 1 after 2 retries","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:32"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:32"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:32"}
-{"level":"warn","message":"⚠️  Banana API request failed: No answer in response","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:32"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:32"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t48d03f804fe2df121fd44d7701n33.png, answer: 3","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:32"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t521e7aff33c972c34c8b867b4bn119.png, answer: 9","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:32"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:33"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:33"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t57b759ac5fd15aaa54a0664e78n46.png, answer: 6","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:33"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t57c9117679108b75412eb702c8n67.png, answer: 7","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:33"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:33"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:33"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t57fdec91b94ff8c19c7d903807n12.png, answer: 2","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:33"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t58beac222e7adb19012264c235n78.png, answer: 8","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:33"}
-{"level":"info","message":"Game initialized in lobby Y3VPU2 with 5 questions","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:34"}
-{"level":"info","message":"Game successfully started in lobby Y3VPU2 by test","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:34"}
-{"level":"info","message":"Sending first question after 3 second delay...","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:34"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:34"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t5eaf3b3fe25f6082c904c22d9cn83.png, answer: 3","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:34"}
-{"level":"warn","message":"Only got 4/5 puzzles from Banana API","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:34"}
-{"level":"info","message":"Rihana joined lobby Y3VPU2","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:34"}
-{"level":"info","message":"test joined lobby Y3VPU2","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:34"}
-{"level":"error","message":"Error initializing game for lobby Y3VPU2: No matching document found for id \"69160610946157240b567dd0\" version 1 modifiedPaths \"questions, status, startedAt\"","modifiedPaths":["questions","status","startedAt"],"service":"monkey-mind-backend","stack":"VersionError: No matching document found for id \"69160610946157240b567dd0\" version 1 modifiedPaths \"questions, status, startedAt\"\n    at generateVersionError (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\mongoose\\lib\\model.js:571:10)\n    at model.save (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\mongoose\\lib\\model.js:629:28)\n    at initializeGame (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\src\\services\\gameEngine.ts:63:17)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at Socket.<anonymous> (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\src\\sockets\\socketHandlers.ts:207:27)","timestamp":"2025-11-13 21:54:35","version":1}
-{"level":"error","message":"Failed to initialize game for lobby Y3VPU2","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:35"}
-{"level":"info","message":"Sent question 1/5 (q_1763051071457_6gthrhqjf) to lobby Y3VPU2","service":"monkey-mind-backend","timestamp":"2025-11-13 21:54:37"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1763051071457_6gthrhqjf in lobby Y3VPU2: incorrect (+0 points)","service":"monkey-mind-backend","timestamp":"2025-11-13 21:55:07"}
-{"level":"info","message":"Question q_1763051071457_6gthrhqjf: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-13 21:55:07"}
-{"level":"debug","message":"test submitted answer for q_1763051071457_6gthrhqjf: incorrect","service":"monkey-mind-backend","timestamp":"2025-11-13 21:55:07"}
-{"level":"info","message":"Sent question 2/5 (q_1763051072244_3h3b3p4z6) to lobby Y3VPU2","service":"monkey-mind-backend","timestamp":"2025-11-13 21:55:12"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1763051072244_3h3b3p4z6 in lobby Y3VPU2: correct (+100 points)","service":"monkey-mind-backend","timestamp":"2025-11-13 21:55:45"}
-{"level":"info","message":"Question q_1763051072244_3h3b3p4z6: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-13 21:55:45"}
-{"level":"debug","message":"test submitted answer for q_1763051072244_3h3b3p4z6: correct","service":"monkey-mind-backend","timestamp":"2025-11-13 21:55:45"}
-{"level":"info","message":"Sent question 3/5 (q_1763051072833_gtw5awzxu) to lobby Y3VPU2","service":"monkey-mind-backend","timestamp":"2025-11-13 21:55:48"}
-{"level":"debug","message":"69160580946157240b567dc5 answered question q_1763051072833_gtw5awzxu in lobby Y3VPU2: correct (+121 points)","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:06"}
-{"level":"info","message":"Question q_1763051072833_gtw5awzxu: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:06"}
-{"level":"debug","message":"Rihana submitted answer for q_1763051072833_gtw5awzxu: correct","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:06"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1763051072833_gtw5awzxu in lobby Y3VPU2: correct (+115 points)","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:10"}
-{"level":"info","message":"Question q_1763051072833_gtw5awzxu: 2/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:10"}
-{"level":"info","message":"All players answered! Advancing to next question in 3 seconds...","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:10"}
-{"level":"debug","message":"test submitted answer for q_1763051072833_gtw5awzxu: correct","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:10"}
-{"level":"info","message":"Sent question 4/5 (q_1763051073378_57je4xcs8) to lobby Y3VPU2","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:13"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1763051073378_57je4xcs8 in lobby Y3VPU2: correct (+116 points)","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:34"}
-{"level":"info","message":"Question q_1763051073378_57je4xcs8: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:34"}
-{"level":"debug","message":"test submitted answer for q_1763051073378_57je4xcs8: correct","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:34"}
-{"level":"debug","message":"69160580946157240b567dc5 answered question q_1763051073378_57je4xcs8 in lobby Y3VPU2: incorrect (+0 points)","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:37"}
-{"level":"info","message":"Question q_1763051073378_57je4xcs8: 2/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:37"}
-{"level":"info","message":"All players answered! Advancing to next question in 3 seconds...","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:37"}
-{"level":"debug","message":"Rihana submitted answer for q_1763051073378_57je4xcs8: incorrect","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:37"}
-{"level":"info","message":"Sent question 5/5 (q_1763051073930_dmtzh2xev) to lobby Y3VPU2","service":"monkey-mind-backend","timestamp":"2025-11-13 21:56:40"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1763051073930_dmtzh2xev in lobby Y3VPU2: incorrect (+0 points)","service":"monkey-mind-backend","timestamp":"2025-11-13 21:57:05"}
-{"level":"info","message":"Question q_1763051073930_dmtzh2xev: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-13 21:57:05"}
-{"level":"debug","message":"test submitted answer for q_1763051073930_dmtzh2xev: incorrect","service":"monkey-mind-backend","timestamp":"2025-11-13 21:57:05"}
-{"level":"debug","message":"69160580946157240b567dc5 answered question q_1763051073930_dmtzh2xev in lobby Y3VPU2: incorrect (+0 points)","service":"monkey-mind-backend","timestamp":"2025-11-13 21:57:08"}
-{"level":"info","message":"Question q_1763051073930_dmtzh2xev: 2/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-13 21:57:08"}
-{"level":"info","message":"All players answered! Advancing to next question in 3 seconds...","service":"monkey-mind-backend","timestamp":"2025-11-13 21:57:08"}
-{"level":"debug","message":"Rihana submitted answer for q_1763051073930_dmtzh2xev: incorrect","service":"monkey-mind-backend","timestamp":"2025-11-13 21:57:08"}
-{"level":"info","message":"Game ended in lobby Y3VPU2. Winner: test with 331 points","service":"monkey-mind-backend","timestamp":"2025-11-13 21:57:12"}
-{"level":"info","message":"Game ended in lobby Y3VPU2","service":"monkey-mind-backend","timestamp":"2025-11-13 21:57:12"}
-{"level":"debug","message":"Rate limiter cleanup: removed 1 expired entries","service":"monkey-mind-backend","timestamp":"2025-11-13 22:09:26"}
-{"level":"info","message":"Socket disconnected: C4pWkw5Mx27phzi4AAAB","service":"monkey-mind-backend","timestamp":"2025-11-13 22:13:38"}
-{"level":"info","message":"New socket connection: sYkqheWdg-PdIGssAAAF","service":"monkey-mind-backend","timestamp":"2025-11-13 22:13:39"}
-{"level":"info","message":"Socket authenticated: Rihana (sYkqheWdg-PdIGssAAAF)","service":"monkey-mind-backend","timestamp":"2025-11-13 22:13:39"}
-{"level":"debug","message":"GET /api/lobbies/public","service":"monkey-mind-backend","timestamp":"2025-11-13 22:29:25"}
-{"level":"debug","message":"GET /api/lobbies/public","service":"monkey-mind-backend","timestamp":"2025-11-13 22:29:47"}
-{"level":"debug","message":"GET /api/lobbies/public","service":"monkey-mind-backend","timestamp":"2025-11-13 22:29:51"}
-{"level":"debug","message":"POST /api/lobbies","service":"monkey-mind-backend","timestamp":"2025-11-13 22:29:58"}
-{"level":"info","message":"Lobby created: NP7486 by Rihana","service":"monkey-mind-backend","timestamp":"2025-11-13 22:29:58"}
-{"level":"info","message":"Rihana joined lobby NP7486","service":"monkey-mind-backend","timestamp":"2025-11-13 22:29:58"}
-{"level":"debug","message":"GET /api/lobbies/public","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:04"}
-{"level":"debug","message":"POST /api/lobbies/NP7486/join","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:05"}
-{"level":"info","message":"test joined lobby NP7486","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:05"}
-{"level":"info","message":"test joined lobby NP7486","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:05"}
-{"level":"debug","message":"POST /api/lobbies/NP7486/start","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:10"}
-{"level":"info","message":"Game start requested for lobby NP7486","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:11"}
-{"level":"info","message":"Initializing game for lobby NP7486...","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:11"}
-{"level":"debug","message":"Fetching 5 questions (difficulty: medium)","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:11"}
-{"level":"info","message":"Fetching 5 puzzles from Banana API...","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:11"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:11"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t970e0370316534bf79adada8aen108.png, answer: 8","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:11"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:12"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t99af3124109da797073e3484a3n81.png, answer: 1","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:12"}
-{"level":"debug","message":"POST /api/lobbies/NP7486/start","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:12"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:12"}
-{"level":"info","message":"Game start requested for lobby NP7486","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:12"}
-{"level":"info","message":"Initializing game for lobby NP7486...","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:13"}
-{"level":"debug","message":"Fetching 5 questions (difficulty: medium)","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:13"}
-{"level":"info","message":"Fetching 5 puzzles from Banana API...","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:13"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:13"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t99e2e21790fb7975ea25695d0en41.png, answer: 1","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:13"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:13"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t9e20c893e055dcedb1688dd580n1.png, answer: 1","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:13"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/t9e817d0997a5e58530571de0aan43.png, answer: 3","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:13"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:13"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:13"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/ta0c0b680fc846e3287e5a379dfn71.png, answer: 1","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:14"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/ta0d70d5ce9e9f234c24e2317c1n102.png, answer: 2","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:14"}
-{"level":"info","message":"Game initialized in lobby NP7486 with 5 questions","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:14"}
-{"level":"info","message":"Game successfully started in lobby NP7486 by Rihana","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:14"}
-{"level":"info","message":"Sending first question after 3 second delay...","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:14"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:14"}
-{"level":"info","message":"test joined lobby NP7486","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:14"}
-{"level":"info","message":"Rihana joined lobby NP7486","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:14"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/ta8210bba135a699e52ffaea5e2n65.png, answer: 5","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:14"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:15"}
-{"level":"warn","message":"⚠️  Banana API request failed: No answer in response","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:15"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:15"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/tacb34b3be1122c289822d12833n87.png, answer: 7","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:15"}
-{"level":"debug","message":"Fetching puzzle from Banana API: https://marcconrad.com/uob/banana/api.php","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:16"}
-{"level":"info","message":"✅ Fetched Banana puzzle: https://www.sanfoh.com/uob/banana/data/tad7dd73ee0e4fe1034a83f05f2n123.png, answer: 3","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:16"}
-{"level":"error","message":"Error initializing game for lobby NP7486: No matching document found for id \"69160e8e946157240b567e1d\" version 1 modifiedPaths \"questions, status, startedAt\"","modifiedPaths":["questions","status","startedAt"],"service":"monkey-mind-backend","stack":"VersionError: No matching document found for id \"69160e8e946157240b567e1d\" version 1 modifiedPaths \"questions, status, startedAt\"\n    at generateVersionError (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\mongoose\\lib\\model.js:571:10)\n    at model.save (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\mongoose\\lib\\model.js:629:28)\n    at initializeGame (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\src\\services\\gameEngine.ts:63:17)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at Socket.<anonymous> (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\src\\sockets\\socketHandlers.ts:207:27)","timestamp":"2025-11-13 22:30:16","version":1}
-{"level":"error","message":"Failed to initialize game for lobby NP7486","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:16"}
-{"level":"info","message":"Sent question 1/5 (q_1763053211939_rxejljdvh) to lobby NP7486","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:17"}
-{"level":"debug","message":"69160580946157240b567dc5 answered question q_1763053211939_rxejljdvh in lobby NP7486: correct (+141 points)","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:23"}
-{"level":"info","message":"Question q_1763053211939_rxejljdvh: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:23"}
-{"level":"debug","message":"Rihana submitted answer for q_1763053211939_rxejljdvh: correct","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:23"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1763053211939_rxejljdvh in lobby NP7486: incorrect (+0 points)","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:43"}
-{"level":"info","message":"Question q_1763053211939_rxejljdvh: 2/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:43"}
-{"level":"info","message":"All players answered! Advancing to next question in 3 seconds...","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:43"}
-{"level":"debug","message":"test submitted answer for q_1763053211939_rxejljdvh: incorrect","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:43"}
-{"level":"info","message":"Sent question 2/5 (q_1763053212558_r9xqietro) to lobby NP7486","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:47"}
-{"level":"debug","message":"69160580946157240b567dc5 answered question q_1763053212558_r9xqietro in lobby NP7486: incorrect (+0 points)","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:52"}
-{"level":"info","message":"Question q_1763053212558_r9xqietro: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:53"}
-{"level":"debug","message":"Rihana submitted answer for q_1763053212558_r9xqietro: incorrect","service":"monkey-mind-backend","timestamp":"2025-11-13 22:30:53"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1763053212558_r9xqietro in lobby NP7486: incorrect (+0 points)","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:08"}
-{"level":"info","message":"Question q_1763053212558_r9xqietro: 2/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:08"}
-{"level":"info","message":"All players answered! Advancing to next question in 3 seconds...","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:08"}
-{"level":"debug","message":"test submitted answer for q_1763053212558_r9xqietro: incorrect","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:08"}
-{"level":"info","message":"Sent question 3/5 (q_1763053213128_1hoagvkhk) to lobby NP7486","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:11"}
-{"level":"debug","message":"69160580946157240b567dc5 answered question q_1763053213128_1hoagvkhk in lobby NP7486: incorrect (+0 points)","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:20"}
-{"level":"info","message":"Question q_1763053213128_1hoagvkhk: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:20"}
-{"level":"debug","message":"Rihana submitted answer for q_1763053213128_1hoagvkhk: incorrect","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:20"}
-{"level":"debug","message":"6914c345d1f91d6a2ca24bae answered question q_1763053213128_1hoagvkhk in lobby NP7486: correct (+104 points)","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:39"}
-{"level":"info","message":"Question q_1763053213128_1hoagvkhk: 2/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:39"}
-{"level":"info","message":"All players answered! Advancing to next question in 3 seconds...","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:39"}
-{"level":"debug","message":"test submitted answer for q_1763053213128_1hoagvkhk: correct","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:39"}
-{"level":"info","message":"Sent question 4/5 (q_1763053213658_z4gyybjk7) to lobby NP7486","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:42"}
-{"level":"debug","message":"69160580946157240b567dc5 answered question q_1763053213658_z4gyybjk7 in lobby NP7486: correct (+145 points)","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:45"}
-{"level":"info","message":"Question q_1763053213658_z4gyybjk7: 1/2 players answered","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:45"}
-{"level":"debug","message":"Rihana submitted answer for q_1763053213658_z4gyybjk7: correct","service":"monkey-mind-backend","timestamp":"2025-11-13 22:31:45"}
-{"level":"info","message":"Sent question 5/5 (q_1763053214289_h8lrz93no) to lobby NP7486","service":"monkey-mind-backend","timestamp":"2025-11-13 22:32:17"}
-{"level":"info","message":"Game ended in lobby NP7486. Winner: Rihana with 286 points","service":"monkey-mind-backend","timestamp":"2025-11-13 22:32:54"}
-{"level":"info","message":"Game ended in lobby NP7486","service":"monkey-mind-backend","timestamp":"2025-11-13 22:32:54"}
-{"level":"info","message":"Socket disconnected: sYkqheWdg-PdIGssAAAF","service":"monkey-mind-backend","timestamp":"2025-11-13 23:34:19"}
-{"level":"info","message":"Socket disconnected: _z5OL66f_3qMpBt_AAAD","service":"monkey-mind-backend","timestamp":"2025-11-13 23:34:19"}
-{"level":"info","message":"New socket connection: KmzzjOZa0JYB1BH2AAAI","service":"monkey-mind-backend","timestamp":"2025-11-14 00:19:40"}
-{"level":"info","message":"Socket authenticated: Rihana (KmzzjOZa0JYB1BH2AAAI)","service":"monkey-mind-backend","timestamp":"2025-11-14 00:19:40"}
-{"level":"info","message":"New socket connection: XuuOAXK3uysUzQ7UAAAJ","service":"monkey-mind-backend","timestamp":"2025-11-14 00:19:40"}
-{"expiredAt":"2025-11-13T17:26:30.000Z","level":"warn","message":"jwt expired","name":"TokenExpiredError","service":"monkey-mind-backend","stack":"TokenExpiredError: jwt expired\n    at C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at verifyToken (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\src\\middleware\\auth.ts:64:25)\n    at Socket.<anonymous> (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\src\\sockets\\socketHandlers.ts:30:33)\n    at Socket.emit (node:events:513:28)\n    at Socket.emitUntyped (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-11-14 00:19:40"}
-{"level":"info","message":"Socket disconnected: XuuOAXK3uysUzQ7UAAAJ","service":"monkey-mind-backend","timestamp":"2025-11-14 00:19:40"}
-{"level":"warn","message":"MongoDB disconnected","service":"monkey-mind-backend","timestamp":"2025-11-14 17:16:17"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-14 17:18:13"}
-{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-14 17:18:13"}
-{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-14 17:18:13"}
-{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-14 17:18:13"}
-{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-14 17:18:13"}
-{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-14 17:18:13"}
-{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-14 17:18:13"}
-{"level":"debug","message":"POST /api/lobbies","service":"monkey-mind-backend","timestamp":"2025-11-14 17:19:37"}
-{"level":"info","message":"Lobby created: EU8HLV by Rihana","service":"monkey-mind-backend","timestamp":"2025-11-14 17:19:37"}
-{"level":"info","message":"New socket connection: sXtDwrXuKJOa-YiQAAAB","service":"monkey-mind-backend","timestamp":"2025-11-14 17:20:30"}
-{"level":"info","message":"Socket authenticated: Rihana (sXtDwrXuKJOa-YiQAAAB)","service":"monkey-mind-backend","timestamp":"2025-11-14 17:20:30"}
-{"level":"info","message":"Socket disconnected: sXtDwrXuKJOa-YiQAAAB","service":"monkey-mind-backend","timestamp":"2025-11-14 17:45:38"}
-{"level":"debug","message":"POST /api/auth/login","service":"monkey-mind-backend","timestamp":"2025-11-14 17:45:51"}
-{"level":"debug","message":"POST /api/auth/register","service":"monkey-mind-backend","timestamp":"2025-11-14 17:45:55"}
-{"level":"info","message":"New user registered: Anya","service":"monkey-mind-backend","timestamp":"2025-11-14 17:45:56"}
-{"level":"info","message":"New socket connection: AKQQ_V4uGvcJALWFAAAD","service":"monkey-mind-backend","timestamp":"2025-11-14 17:45:56"}
-{"level":"info","message":"Socket authenticated: Anya (AKQQ_V4uGvcJALWFAAAD)","service":"monkey-mind-backend","timestamp":"2025-11-14 17:45:56"}
-{"level":"debug","message":"Rate limiter cleanup: removed 1 expired entries","service":"monkey-mind-backend","timestamp":"2025-11-14 18:03:08"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-14 18:04:00"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-14 18:04:00"}
-{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-14 18:04:00"}
-{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-14 18:04:00"}
-{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-14 18:04:00"}
-{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-14 18:04:00"}
-{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-14 18:04:00"}
-{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-14 18:04:00"}
-{"level":"info","message":"New socket connection: HoDmSXb_Jt7MdEc0AAAB","service":"monkey-mind-backend","timestamp":"2025-11-14 18:04:02"}
-{"level":"info","message":"Socket authenticated: Anya (HoDmSXb_Jt7MdEc0AAAB)","service":"monkey-mind-backend","timestamp":"2025-11-14 18:04:02"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-14 20:17:40"}
-{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-14 20:17:40"}
-{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-14 20:17:40"}
-{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-14 20:17:40"}
-{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-14 20:17:40"}
-{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-14 20:17:40"}
-{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-14 20:17:40"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-14 20:17:40"}
-{"level":"info","message":"New socket connection: fhQb1fdiOd0Mo6HXAAAB","service":"monkey-mind-backend","timestamp":"2025-11-14 20:17:41"}
-{"level":"info","message":"Socket authenticated: Anya (fhQb1fdiOd0Mo6HXAAAB)","service":"monkey-mind-backend","timestamp":"2025-11-14 20:17:41"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-14 23:08:05"}
-{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-14 23:08:05"}
-{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-14 23:08:05"}
-{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-14 23:08:05"}
-{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-14 23:08:05"}
-{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-14 23:08:05"}
-{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-14 23:08:05"}
-{"level":"info","message":"New socket connection: cz7UyVRvUQmFWI8dAAAB","service":"monkey-mind-backend","timestamp":"2025-11-14 23:09:43"}
-{"level":"info","message":"Socket authenticated: Anya (cz7UyVRvUQmFWI8dAAAB)","service":"monkey-mind-backend","timestamp":"2025-11-14 23:09:43"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:00"}
-{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:00"}
-{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:00"}
-{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:00"}
-{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:00"}
-{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:00"}
-{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:00"}
-{"level":"info","message":"New socket connection: GZakD4lfEF0fTVF9AAAB","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:01"}
-{"level":"info","message":"Socket authenticated: Anya (GZakD4lfEF0fTVF9AAAB)","service":"monkey-mind-backend","timestamp":"2025-11-14 23:43:01"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
-{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
-{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
-{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
-{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
-{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
-{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
-{"level":"info","message":"New socket connection: ccJvJIpdBE-A1hn8AAAB","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
-{"level":"info","message":"Socket authenticated: Anya (ccJvJIpdBE-A1hn8AAAB)","service":"monkey-mind-backend","timestamp":"2025-11-14 23:46:37"}
-{"level":"info","message":"Socket disconnected: ccJvJIpdBE-A1hn8AAAB","service":"monkey-mind-backend","timestamp":"2025-11-14 23:54:40"}
-{"level":"debug","message":"POST /api/auth/login","service":"monkey-mind-backend","timestamp":"2025-11-14 23:54:58"}
-{"level":"debug","message":"POST /api/auth/register","service":"monkey-mind-backend","timestamp":"2025-11-14 23:55:03"}
-{"level":"info","message":"New user registered: Sienna","service":"monkey-mind-backend","timestamp":"2025-11-14 23:55:03"}
-{"level":"info","message":"New socket connection: mjFXzRHI-P-b92KzAAAD","service":"monkey-mind-backend","timestamp":"2025-11-14 23:55:03"}
-{"level":"info","message":"Socket authenticated: Sienna (mjFXzRHI-P-b92KzAAAD)","service":"monkey-mind-backend","timestamp":"2025-11-14 23:55:03"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:23"}
-{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:23"}
-{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:23"}
-{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:23"}
-{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:23"}
-{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:23"}
-{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:23"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
-{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
-{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
-{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
-{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
-{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
-{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:35"}
-{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"monkey-mind-backend","timestamp":"2025-11-15 00:11:57"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:01"}
-{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:01"}
-{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:01"}
-{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:01"}
-{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:01"}
-{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:01"}
-{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:01"}
-{"level":"info","message":"New socket connection: 7_rNv-SNkO5jazQBAAAB","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:02"}
-{"level":"info","message":"Socket authenticated: Sienna (7_rNv-SNkO5jazQBAAAB)","service":"monkey-mind-backend","timestamp":"2025-11-15 06:44:02"}
-{"level":"info","message":"Socket disconnected: 7_rNv-SNkO5jazQBAAAB","service":"monkey-mind-backend","timestamp":"2025-11-15 07:24:29"}
-{"level":"debug","message":"POST /api/auth/register","service":"monkey-mind-backend","timestamp":"2025-11-15 07:24:42"}
-{"level":"info","message":"New user registered: Liyena","service":"monkey-mind-backend","timestamp":"2025-11-15 07:24:43"}
-{"level":"info","message":"New socket connection: zIgsQww3IeCfDjKsAAAD","service":"monkey-mind-backend","timestamp":"2025-11-15 07:24:43"}
-{"level":"info","message":"Socket authenticated: Liyena (zIgsQww3IeCfDjKsAAAD)","service":"monkey-mind-backend","timestamp":"2025-11-15 07:24:43"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:44"}
-{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:44"}
-{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:44"}
-{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:44"}
-{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:44"}
-{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:44"}
-{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:44"}
-{"level":"info","message":"New socket connection: gfF1Y-yJFcioH7FXAAAB","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:46"}
-{"level":"info","message":"Socket authenticated: Liyena (gfF1Y-yJFcioH7FXAAAB)","service":"monkey-mind-backend","timestamp":"2025-11-15 08:27:46"}
-{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:28"}
-{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:28"}
-{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:28"}
-{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:28"}
-{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:28"}
-{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:28"}
-{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:28"}
-{"level":"info","message":"New socket connection: 5FzSSDT_x8ZZ621WAAAB","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:30"}
-{"level":"info","message":"Socket authenticated: Liyena (5FzSSDT_x8ZZ621WAAAB)","service":"monkey-mind-backend","timestamp":"2025-11-15 08:31:30"}
-{"level":"info","message":"Socket disconnected: 5FzSSDT_x8ZZ621WAAAB","service":"monkey-mind-backend","timestamp":"2025-11-15 09:26:50"}
-{"level":"info","message":"New socket connection: AtWq_x4NqT6OL0oxAAAD","service":"monkey-mind-backend","timestamp":"2025-11-15 09:34:21"}
-{"level":"info","message":"Socket authenticated: Liyena (AtWq_x4NqT6OL0oxAAAD)","service":"monkey-mind-backend","timestamp":"2025-11-15 09:34:21"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-02 16:08:46"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-02 16:08:46"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-02 16:08:46"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-02 16:08:46"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-02 16:08:46"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-02 16:08:46"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:08:46"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"monkey-mind-backend","timestamp":"2025-12-02 16:08:52"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:29"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:29"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:29"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:29"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:29"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:29"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:29"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:33"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:33"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:33"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:33"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:33"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:33"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:33"}
+{"level":"debug","message":"POST /api/auth/register","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:44"}
+{"level":"info","message":"New user registered: tester","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:44"}
+{"level":"info","message":"New socket connection: OucmIAlQjGyJWqfQAAAB","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:44"}
+{"level":"info","message":"Socket authenticated: tester (OucmIAlQjGyJWqfQAAAB)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:44"}
+{"level":"info","message":"Socket disconnected: OucmIAlQjGyJWqfQAAAB","service":"monkey-mind-backend","timestamp":"2025-12-02 16:15:58"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-02 16:16:56"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-02 16:16:56"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-02 16:16:56"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-02 16:16:56"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-02 16:16:56"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-02 16:16:56"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:16:56"}
+{"level":"debug","message":"POST /api/auth/login","service":"monkey-mind-backend","timestamp":"2025-12-02 16:17:17"}
+{"level":"info","message":"User logged in: tester","service":"monkey-mind-backend","timestamp":"2025-12-02 16:17:17"}
+{"level":"info","message":"New socket connection: 7oDhs6JZPm9jy17tAAAB","service":"monkey-mind-backend","timestamp":"2025-12-02 16:17:17"}
+{"level":"info","message":"Socket authenticated: tester (7oDhs6JZPm9jy17tAAAB)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:17:17"}
+{"level":"debug","message":"GET /api/lobbies/public","service":"monkey-mind-backend","timestamp":"2025-12-02 16:17:28"}
+{"level":"debug","message":"GET /api/lobbies/public","service":"monkey-mind-backend","timestamp":"2025-12-02 16:17:30"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-02 16:17:57"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-02 16:17:57"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-02 16:17:57"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-02 16:17:57"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-02 16:17:57"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-02 16:17:57"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:17:57"}
+{"level":"info","message":"New socket connection: Y5ju3jhkHb2_hyy3AAAB","service":"monkey-mind-backend","timestamp":"2025-12-02 16:17:57"}
+{"level":"info","message":"Socket authenticated: tester (Y5ju3jhkHb2_hyy3AAAB)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:17:57"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:01"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:01"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:01"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:01"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:01"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:01"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:01"}
+{"level":"info","message":"New socket connection: N6Pp6MfV7smqpXuWAAAB","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:01"}
+{"level":"info","message":"Socket authenticated: tester (N6Pp6MfV7smqpXuWAAAB)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:01"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:10"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:10"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:10"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:10"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:10"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:10"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:10"}
+{"level":"info","message":"New socket connection: NuC7akf3IZWJPCBMAAAB","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:12"}
+{"level":"info","message":"Socket authenticated: tester (NuC7akf3IZWJPCBMAAAB)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:12"}
+{"level":"info","message":"Socket disconnected: NuC7akf3IZWJPCBMAAAB","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:16"}
+{"level":"info","message":"New socket connection: QhNgRbSeNwnyipRgAAAD","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:16"}
+{"level":"info","message":"Socket authenticated: tester (QhNgRbSeNwnyipRgAAAD)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:16"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:41"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:41"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:41"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:41"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:41"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:41"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:41"}
+{"level":"info","message":"New socket connection: jDeaPuhIyVDtTHUGAAAB","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:41"}
+{"level":"info","message":"Socket authenticated: tester (jDeaPuhIyVDtTHUGAAAB)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:18:41"}
+{"level":"info","message":"Socket disconnected: jDeaPuhIyVDtTHUGAAAB","service":"monkey-mind-backend","timestamp":"2025-12-02 16:19:22"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-02 16:19:32"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-02 16:19:32"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-02 16:19:32"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-02 16:19:32"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-02 16:19:32"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-02 16:19:32"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:19:32"}
+{"level":"debug","message":"POST /api/auth/google","service":"monkey-mind-backend","timestamp":"2025-12-02 16:33:12"}
+{"level":"error","message":"Google Client ID not configured","service":"monkey-mind-backend","timestamp":"2025-12-02 16:33:12"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-02 16:33:59"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-02 16:33:59"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-02 16:33:59"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-02 16:33:59"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-02 16:33:59"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-02 16:33:59"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:33:59"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:07"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:07"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:07"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:07"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:07"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:07"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:07"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:10"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:14"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:14"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:14"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:14"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:14"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:14"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:14"}
+{"level":"debug","message":"POST /api/auth/google","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:31"}
+{"level":"info","message":"New Google user registered: Zin Zlatan","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:32"}
+{"level":"info","message":"New socket connection: E4nqXawNbaewFyOtAAAB","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:32"}
+{"level":"info","message":"Socket authenticated: Zin Zlatan (E4nqXawNbaewFyOtAAAB)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:32"}
+{"level":"info","message":"Socket disconnected: E4nqXawNbaewFyOtAAAB","service":"monkey-mind-backend","timestamp":"2025-12-02 16:34:45"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-02 16:35:56"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-02 16:35:57"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-02 16:35:57"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-02 16:35:57"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-02 16:35:57"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-02 16:35:57"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:35:57"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-02 16:36:03"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-02 16:36:03"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-02 16:36:03"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-02 16:36:03"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-02 16:36:03"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-02 16:36:03"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:36:03"}
+{"level":"debug","message":"POST /api/auth/google","service":"monkey-mind-backend","timestamp":"2025-12-02 16:36:06"}
+{"level":"info","message":"Google user logged in: Zin Zlatan","service":"monkey-mind-backend","timestamp":"2025-12-02 16:36:07"}
+{"level":"info","message":"New socket connection: VrwF3XiLVWRiHnn3AAAB","service":"monkey-mind-backend","timestamp":"2025-12-02 16:36:07"}
+{"level":"info","message":"Socket authenticated: Zin Zlatan (VrwF3XiLVWRiHnn3AAAB)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:36:07"}
+{"level":"info","message":"Socket disconnected: VrwF3XiLVWRiHnn3AAAB","service":"monkey-mind-backend","timestamp":"2025-12-02 16:36:09"}
+{"level":"info","message":"New socket connection: ExteVGI_rIoppL6jAAAD","service":"monkey-mind-backend","timestamp":"2025-12-02 16:36:09"}
+{"level":"info","message":"Socket authenticated: Zin Zlatan (ExteVGI_rIoppL6jAAAD)","service":"monkey-mind-backend","timestamp":"2025-12-02 16:36:09"}
+{"level":"info","message":"Socket disconnected: ExteVGI_rIoppL6jAAAD","service":"monkey-mind-backend","timestamp":"2025-12-02 16:37:57"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","service":"monkey-mind-backend","timestamp":"2025-12-02 16:38:10"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-03 11:13:13"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-03 11:13:13"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-03 11:13:13"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-03 11:13:13"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-03 11:13:13"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-03 11:13:13"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-03 11:13:13"}
+{"level":"debug","message":"POST /api/auth/register","service":"monkey-mind-backend","timestamp":"2025-12-03 11:13:56"}
+{"level":"info","message":"New user registered: gg","service":"monkey-mind-backend","timestamp":"2025-12-03 11:13:57"}
+{"level":"info","message":"New socket connection: ySg2sn0QRNOHKc3cAAAB","service":"monkey-mind-backend","timestamp":"2025-12-03 11:13:57"}
+{"level":"info","message":"Socket authenticated: gg (ySg2sn0QRNOHKc3cAAAB)","service":"monkey-mind-backend","timestamp":"2025-12-03 11:13:57"}
+{"level":"info","message":"Socket disconnected: ySg2sn0QRNOHKc3cAAAB","service":"monkey-mind-backend","timestamp":"2025-12-03 11:28:13"}
+{"level":"info","message":"New socket connection: G_-FkXex4ye3d0tgAAAD","service":"monkey-mind-backend","timestamp":"2025-12-03 11:38:17"}
+{"level":"info","message":"Socket authenticated: gg (G_-FkXex4ye3d0tgAAAD)","service":"monkey-mind-backend","timestamp":"2025-12-03 11:38:17"}
+{"level":"info","message":"Socket disconnected: G_-FkXex4ye3d0tgAAAD","service":"monkey-mind-backend","timestamp":"2025-12-03 11:41:50"}
+{"level":"info","message":"New socket connection: P1qawMxpvZzAWWMyAAAG","service":"monkey-mind-backend","timestamp":"2025-12-03 11:41:50"}
+{"level":"info","message":"Socket authenticated: gg (P1qawMxpvZzAWWMyAAAG)","service":"monkey-mind-backend","timestamp":"2025-12-03 11:41:50"}
+{"level":"info","message":"Socket disconnected: P1qawMxpvZzAWWMyAAAG","service":"monkey-mind-backend","timestamp":"2025-12-03 11:49:17"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-03 12:27:59"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-03 12:27:59"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-03 12:27:59"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-03 12:27:59"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-03 12:27:59"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-03 12:27:59"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-03 12:27:59"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-03 12:32:46"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-03 12:32:46"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-03 12:32:46"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-03 12:32:46"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-03 12:32:46"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-03 12:32:46"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-03 12:32:46"}
+{"level":"info","message":"New socket connection: SlUd5AP68djZLo-GAAAB","service":"monkey-mind-backend","timestamp":"2025-12-03 12:33:01"}
+{"expiredAt":"2025-11-16T11:40:27.000Z","level":"warn","message":"jwt expired","name":"TokenExpiredError","service":"monkey-mind-backend","stack":"TokenExpiredError: jwt expired\n    at C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\jsonwebtoken\\verify.js:190:21\n    at getSecret (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at module.exports [as verify] (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at verifyToken (file:///C:/Users/ridmi/OneDrive/Desktop/monkey-mind-puzzle/backend/src/middleware/auth.js:58:25)\n    at Socket.<anonymous> (file:///C:/Users/ridmi/OneDrive/Desktop/monkey-mind-puzzle/backend/src/sockets/socketHandlers.js:22:22)\n    at Socket.emit (node:events:513:28)\n    at Socket.emitUntyped (C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at C:\\Users\\ridmi\\OneDrive\\Desktop\\monkey-mind-puzzle\\backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-12-03 12:33:01"}
+{"level":"info","message":"Socket disconnected: SlUd5AP68djZLo-GAAAB","service":"monkey-mind-backend","timestamp":"2025-12-03 12:33:01"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-03 12:33:48"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-03 12:33:48"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-03 12:33:48"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-03 12:33:48"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-03 12:33:48"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-03 12:33:48"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-03 12:33:48"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-03 12:34:24"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-03 12:34:24"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-03 12:34:24"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-03 12:34:24"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-03 12:34:24"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-03 12:34:24"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-03 12:34:24"}
+{"level":"debug","message":"POST /api/auth/google","service":"monkey-mind-backend","timestamp":"2025-12-03 12:34:51"}
+{"level":"info","message":"MongoDB connected successfully","service":"monkey-mind-backend","timestamp":"2025-12-03 12:35:02"}
+{"level":"info","message":"Socket.IO server configured","service":"monkey-mind-backend","timestamp":"2025-12-03 12:35:02"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"monkey-mind-backend","timestamp":"2025-12-03 12:35:02"}
+{"level":"info","message":"📊 Environment: development","service":"monkey-mind-backend","timestamp":"2025-12-03 12:35:02"}
+{"level":"info","message":"🌐 Frontend URL: http://localhost:8080","service":"monkey-mind-backend","timestamp":"2025-12-03 12:35:02"}
+{"level":"info","message":"🔌 Socket.IO ready for connections","service":"monkey-mind-backend","timestamp":"2025-12-03 12:35:02"}
+{"level":"info","message":"🍌 Banana API ready (no auth required)","service":"monkey-mind-backend","timestamp":"2025-12-03 12:35:02"}

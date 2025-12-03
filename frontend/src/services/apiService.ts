@@ -57,6 +57,20 @@ export const apiService = {
     }
   },
 
+  async googleLogin(credential: string): Promise<AuthResponse> {
+    try {
+      const response = await fetch(`${API_BASE_URL}/api/auth/google`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ credential }),
+      });
+      return await response.json();
+    } catch (error) {
+      console.error('[API] Google login error:', error);
+      return { success: false, message: 'Network error. Please try again.' };
+    }
+  },
+
   async createLobby(token: string, lobbyData: LobbyData) {
     try {
       const response = await fetch(`${API_BASE_URL}/api/lobbies`, {
